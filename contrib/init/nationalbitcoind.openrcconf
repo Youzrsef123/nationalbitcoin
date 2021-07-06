@@ -1,0 +1,33 @@
+# /etc/conf.d/nationalbitcoind: config file for /etc/init.d/nationalbitcoind
+
+# Config file location
+#NATIONALBITCOIND_CONFIGFILE="/etc/nationalbitcoin/nationalbitcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $NATIONALBITCOIND_USER)
+#NATIONALBITCOIND_PIDDIR="/var/run/nationalbitcoind"
+
+# What filename to give the pidfile
+#NATIONALBITCOIND_PIDFILE="${NATIONALBITCOIND_PIDDIR}/nationalbitcoind.pid"
+
+# Where to write nationalbitcoind data (be mindful that the blockchain is large)
+#NATIONALBITCOIND_DATADIR="/var/lib/nationalbitcoind"
+
+# User and group to own nationalbitcoind process
+#NATIONALBITCOIND_USER="nationalbitcoin"
+#NATIONALBITCOIND_GROUP="nationalbitcoin"
+
+# Path to nationalbitcoind executable
+#NATIONALBITCOIND_BIN="/usr/bin/nationalbitcoind"
+
+# Nice value to run nationalbitcoind under
+#NATIONALBITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#NATIONALBITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for nationalbitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+NATIONALBITCOIND_SIGTERM_TIMEOUT=600

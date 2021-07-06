@@ -1,0 +1,5 @@
+QT_TS = \
+  qt/locale/nationalbitcoin_en.ts \
+  qt/locale/nationalbitcoin_en_GB.ts \
+  qt/locale/nationalbitcoin_ru.ts \
+  qt/locale/nationalbitcoin_uk.ts
