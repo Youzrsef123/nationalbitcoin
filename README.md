@@ -13,7 +13,7 @@ out collectively by the network. National Bitcoin Core is the name of open sourc
 software which enables the use of this currency.
 
 For more information, as well as an immediately usable, binary version of
-the National Bitcoin Core software, see http://national.nationalbitcoin.org/.
+the National Bitcoin Core software, see http://nationalbitcoin.org/.
 
 License
 -------
